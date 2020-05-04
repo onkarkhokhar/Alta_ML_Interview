@@ -1,0 +1,41 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block title %}Turtle{% endblock %}
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+ <div class="container">
+ <div class="navbar-header">
+ <button type="button" class="navbar-toggle"
+ data-toggle="collapse" data-target=".navbar-collapse">
+ <span class="sr-only">Toggle navigation</span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+</button>
+ <a class="navbar-brand" href="/">AltaML Interview</a>
+ </div>
+
+ </div>
+</div>
+{% endblock %}
+
+
+
+{% block content %}
+<div class="container">
+ {% block page_content %}<h1>Filename entered by you, {{ name }}</h1>
+
+ {% endblock %}
+</div>
+    {{ wtf.quick_form(form) }}
+    <div class="container">
+    <h1>Final Position is, {% if final_pos %}{{ final_pos }}{% else %}Loading{% endif %}!</h1>
+      <h1>Repeated Positions are, {{ repeated_position }}</h1>
+
+    </div>
+
+
+
+{% endblock %}
