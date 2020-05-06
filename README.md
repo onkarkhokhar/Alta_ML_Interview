@@ -11,11 +11,24 @@ Run program using command-
 
 
 **Enter the File name from among 6 files.**
+
+
 ![ Enter File name](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture.PNG)
 
+
 This Project shows following three things
-1. End Position 
-![End Position](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture1.PNGhttps://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture1.PNG)
+
+1. End Position
+ 
+![End Position](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture1.PNG)
+
+
+
 2. Full path of turtle 
+
+
 3. Intersecting points in the path 
-![Full path and intersections](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture2.PNG)
+
+
+
+![Full path and intersections](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture3.PNG)
