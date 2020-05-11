@@ -4,10 +4,18 @@ A turtle path tracker built in flask and python
 
 Please install dependencies using- 
  **pip install -r requirements.txt**
+ 
+ ![reqirements](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture4.PNG)
 
 
 Run program using command-
 **python app.py runserver**
+
+
+![runserver](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture5.PNG)
+
+
+![Clicl on link](https://github.com/onkarkhokhar/Alta_ML_Interview/blob/master/images/Capture6.PNG)
 
 
 **Enter the File name from among 6 files.**
